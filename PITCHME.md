@@ -28,7 +28,7 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### Block basics let you present any <p> static **code block** with syntax highlighting
+###### Code block basics let you present any <p> **static code** with auto-syntax highlighting
 
 ---
 
