@@ -38,8 +38,8 @@ except ValueError:
 @[3]
 @[5-6]
 
-For each highlighted code-fragment you have an opportunity to
-focus-on and explain the code.
+Step through each highlighted code-fragment just like you 
+would in your IDE.
 
 
 +++
