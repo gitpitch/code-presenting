@@ -106,7 +106,7 @@ else:
 
 +++?code=src/python/time.py
 
-###### Delimiter basics let you present <p> any **code file** with syntax highlighting
+###### Delimiter basics let you present any <p> repo **code file** with syntax highlighting
 
 ---
 
