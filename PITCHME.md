@@ -26,7 +26,7 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### The basics let you present <p> any code block with syntax highlighting
+###### The basics let you present <p> any *code block* with syntax highlighting
 
 ---
 
@@ -96,11 +96,20 @@ else:
 @[6-7](Python working with time)
 @[9-14](Python for..else statement)
 
----?code=src/go/server.go
+---
 
----?code=src/javascript/config.js
+### Markdown Code-Delimiter
+#### The Basics
 
----?code=src/elixir/monitor.ex
+![Press Down Key](assets/down-arrow.png)
+
++++?code=src/go/server.go
+
+###### The basics let you present <p> any *code file* with syntax highlighting
+
++++?code=src/javascript/config.js
+
++++?code=src/elixir/monitor.ex
 
 ---
 
