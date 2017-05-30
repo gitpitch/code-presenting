@@ -109,7 +109,7 @@ else:
 
 ```
     ```
-    Staic code block goes here
+    Static code block goes here
     ```
 ```
 
