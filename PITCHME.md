@@ -107,6 +107,12 @@ else:
 
 #### The Basic Syntax
 
+```
+    ```
+    Staic code block goes here
+    ```
+```
+
 ![Press Down Key](assets/down-arrow.png)
 
 +++?code=src/python/time.py
