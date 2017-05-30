@@ -36,6 +36,12 @@ else:
 ##### Using
 #### Code-Presenting
 
+```
+                         @[fragment-range] 
+```
+
+#### The Basic Syntax
+
 ![Press Down Key](assets/down-arrow.png)
 
 +++
