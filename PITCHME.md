@@ -135,10 +135,10 @@ else:
 
 +++?code=src/elixir/monitor.ex
 
-@[1](Python from..import statement)
-@[3-4](Python dictionary initialization block)
-@[6-7](Python working with time)
-@[9-14](Python for..else statement)
+@[11-14](Elixir module attributes as constants)
+@[22-28](Elixir with statement for conciseness)
+@[171-177](Elixir case statement pattern matching)
+@[179-185](Elixir pipe for composing functions)
 
 ---
 
