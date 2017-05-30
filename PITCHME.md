@@ -24,7 +24,7 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### The basics let you present <p> any code block with syntax highlighting.
+###### The basics let you present <p> any code block with syntax highlighting
 
 ---
 
@@ -56,7 +56,7 @@ else:
 @[6-7]
 @[9-14]
 
-###### Step-thru each highlighted code-fragment <p> just like you would in your IDE.
+###### Step-thru each highlighted code-fragment <p> just like you would in your IDE
 
 
 ---
@@ -86,9 +86,9 @@ else:
 ```
 
 @[1](Python from..import statement)
-@[3-4](Python dictionary initialization block.)
-@[6-7](Python time basics.)
-@[9-14](Python for..else statement.)
+@[3-4](Python dictionary initialization block)
+@[6-7](Python working with time)
+@[9-14](Python for..else statement)
 
 ---?code=src/go/server.go
 
