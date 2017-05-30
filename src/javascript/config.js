@@ -19,5 +19,6 @@ if (process.env.REDISTOGO_URL) {
   redisToGoConfig = url.parse(process.env.REDISTOGO_URL);
   config.redis.port = redisToGoConfig.port;
   config.redis.host = redisToGoConfig.hostname;
-  config.redis.options.auth_pass = redisToGoConfig.auth.split(':')[1];
+  config.redis.options.auth_pass =
+                    redisToGoConfig.auth.split(':')[1];
 }
