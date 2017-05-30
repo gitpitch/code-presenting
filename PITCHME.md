@@ -4,7 +4,8 @@
 ---
 
 ### Markdown Code-Block
-#### The Basic Syntax
+
+#### The Basic ``` Syntax
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -106,12 +107,6 @@ else:
 ```
 
 #### The Basic Syntax
-
-```
-    ```
-    Static code block goes here
-    ```
-```
 
 ![Press Down Key](assets/down-arrow.png)
 
