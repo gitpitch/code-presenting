@@ -5,6 +5,8 @@
 ### Markdown Code-Block
 #### The Basics
 
+![Press Down Key](assets/down-arrow.png)
+
 +++
 
 ```python
@@ -31,6 +33,8 @@ else:
 ### Markdown Code-Block
 ##### Using
 #### Code-Presenting
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
@@ -65,6 +69,8 @@ else:
 ##### Using
 #### Code-Presenting
 #### With Annotations
+
+![Press Down Key](assets/down-arrow.png)
 
 +++
 
