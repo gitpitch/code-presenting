@@ -106,7 +106,7 @@ else:
                   ---?code=path/to/source.file
 ```
 
-#### The Basic Syntax
+#### The Basics
 
 ![Press Down Key](assets/down-arrow.png)
 
