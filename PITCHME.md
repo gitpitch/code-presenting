@@ -37,7 +37,7 @@ else:
 #### Code-Presenting
 
 ```
-                         \@[fragment-range] 
+                         \\@[fragment-range] 
 ```
 
 #### The Basic Syntax
