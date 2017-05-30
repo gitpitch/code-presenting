@@ -16,6 +16,8 @@ except ValueError:
     print 'Please supply integer arguments'
 ```
 
+###### The basics let you present <p> any code block with syntax highlighting.
+
 +++
 
 ### Markdown Code-Block
