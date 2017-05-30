@@ -1,4 +1,5 @@
-# Code-Presenting
+# Code
+# Presenting
 
 ---
 
@@ -111,8 +112,7 @@ else:
 
 ### Markdown Code-Delimiter
 ##### Using
-#### Code
-#### Presenting
+#### Code-Presenting
 
 ![Press Down Key](assets/down-arrow.png)
 
