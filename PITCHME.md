@@ -62,7 +62,7 @@ else:
 @[6-7]
 @[9-14]
 
-###### Use code-presenting to **step-thru** code <p> directly within your presentation 
+###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
 
 
 ---
@@ -129,7 +129,7 @@ else:
 @[10-16]
 @[18-24]
 
-###### Use code-presenting to **step-thru** code <p> directly within your presentation 
+###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
 
 ---
 
