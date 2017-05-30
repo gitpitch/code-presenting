@@ -2,9 +2,9 @@
 
 ---
 
-## Markdown Code-Block
+### Markdown Code-Block
 
----
++++
 
 ```python
 # This program adds up integers in the command line
@@ -18,8 +18,8 @@ except ValueError:
 
 +++
 
-## Code-Presenting
-## Markdown Code-Block
+### Markdown Code-Block
+#### Code-Presenting
 
 +++
 
@@ -36,14 +36,13 @@ except ValueError:
 @[1]
 @[3-5]
 @[4]
-4[6-7]
+@[6-7]
 
 +++
 
-+++
-
-## Code-Presenting with Annotations
-## Markdown Code-Block
+### Markdown Code-Block
+#### Code-Presenting
+#### With Annotations
 
 +++
 
@@ -60,7 +59,7 @@ except ValueError:
 @[1]
 @[3-5](Try adding up ints passed as args.)
 @[4](The real work is done here.)
-4[6-7](Handle invalid args.)
+@[6-7](Handle invalid args.)
 
 ---?code=src/go/server.go
 
