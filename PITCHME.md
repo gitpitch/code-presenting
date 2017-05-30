@@ -11,4 +11,4 @@
 ---
 
 ### Learn By Example
-#### View The <a target="_blank" href="https://github.com/gitpitch/code-presenting/blob/master/PITCHME.md">Presentation Markdown</a>
+#### View The [Presentation Markdown](https://github.com/gitpitch/code-presenting/blob/master/PITCHME.md)
