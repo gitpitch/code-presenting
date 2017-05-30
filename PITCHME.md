@@ -100,11 +100,12 @@ else:
 ---
 
 ### Markdown Code-Delimiter
-#### The Basic Syntax
 
 ```
----?code=path/to/code.file
+ ---?code=path/to/code.file
 ```
+
+#### The Basic Syntax
 
 ![Press Down Key](assets/down-arrow.png)
 
