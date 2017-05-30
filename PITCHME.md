@@ -3,6 +3,7 @@
 ---
 
 ### Markdown Code-Block
+#### The Basics
 
 +++
 
@@ -18,6 +19,7 @@ except ValueError:
 +++
 
 ### Markdown Code-Block
+##### Using
 #### Code-Presenting
 
 +++
@@ -39,6 +41,7 @@ except ValueError:
 +++
 
 ### Markdown Code-Block
+##### Using
 #### Code-Presenting
 #### With Annotations
 
