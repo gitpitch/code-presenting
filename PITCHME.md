@@ -26,7 +26,7 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### The basics let you present <p> any **code block** with syntax highlighting
+###### Block basics let you present <p> any **code block** with syntax highlighting
 
 ---
 
@@ -105,7 +105,7 @@ else:
 
 +++?code=src/go/server.go
 
-###### The basics let you present <p> any *code file* with syntax highlighting
+###### Delimiter basics let you present <p> any **code file** with syntax highlighting
 
 +++?code=src/javascript/config.js
 
