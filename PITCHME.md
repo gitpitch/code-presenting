@@ -38,8 +38,8 @@ except ValueError:
 @[3]
 @[5-6]
 
-Step through each highlighted code-fragment just like you 
-would in your IDE.
+Step through each highlighted code-fragment
+just like you would in your IDE.
 
 
 +++
