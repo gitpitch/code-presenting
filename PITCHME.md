@@ -5,7 +5,7 @@
 
 ### Markdown Code-Block
 
-#### The Basic ``` Syntax
+#### The Basics
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -35,12 +35,6 @@ else:
 ### Markdown Code-Block
 ##### Using
 #### Code-Presenting
-
-```
-                         @ [fragment-range] 
-```
-
-#### The Basic Syntax
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -77,11 +71,6 @@ else:
 ##### Using
 #### Code-Presenting
 #### With Annotations
-
-
-```
-                     @ [fragment-range](annotation)
-```
 
 ![Press Down Key](assets/down-arrow.png)
 
