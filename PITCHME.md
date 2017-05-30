@@ -4,7 +4,7 @@
 ---
 
 ### Markdown Code-Block
-#### The Basics
+#### The Basic ``` Syntax
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -100,7 +100,11 @@ else:
 ---
 
 ### Markdown Code-Delimiter
-#### The Basics
+#### The Basic Syntax
+
+```
+---?code=path/to/code.file
+```
 
 ![Press Down Key](assets/down-arrow.png)
 
