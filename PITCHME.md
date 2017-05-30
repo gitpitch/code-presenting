@@ -103,13 +103,34 @@ else:
 
 ![Press Down Key](assets/down-arrow.png)
 
-+++?code=src/go/server.go
++++?code=src/python/time.py
 
 ###### Delimiter basics let you present <p> any **code file** with syntax highlighting
 
+---
+
+### Markdown Code-Delimiter
+##### Using
+#### Code-Presenting
+
+![Press Down Key](assets/down-arrow.png)
+
 +++?code=src/javascript/config.js
 
+Need to add CF-markers here...
+
+---
+
+### Markdown Code-Block
+##### Using
+#### Code-Presenting
+#### With Annotations
+
+![Press Down Key](assets/down-arrow.png)
+
 +++?code=src/elixir/monitor.ex
+
+Need to add CF-markers with annotations here...
 
 ---
 
