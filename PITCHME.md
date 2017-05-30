@@ -62,7 +62,7 @@ else:
 @[6-7]
 @[9-14]
 
-###### Code-presenting lets you focus <p> on individual **code-fragments**
+###### Use code-presenting to focus your <p> presentatioin on individual **code-fragments**
 
 
 ---
