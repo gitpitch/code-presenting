@@ -103,7 +103,7 @@ else:
 ### Markdown Code-Delimiter
 
 ```
-                    ---?code=path/to/code.file
+                    ---?code=path/to/source.file
 ```
 
 #### The Basic Syntax
