@@ -54,9 +54,9 @@ except ValueError:
 ```
 
 @[1](Import sys for access to argv.)
-@[3-5](Try summing ints passed as args.)
-@[4](The real work is done here.)
-@[6-7](Just in case, handle invalid args.)
+@[2-4](Try summing ints passed as args.)
+@[3](The real work is done here.)
+@[5-6](Just in case, handle invalid args.)
 
 ---?code=src/go/server.go
 
