@@ -129,7 +129,7 @@ else:
 @[10-16]
 @[18-24]
 
-###### Use code-presenting to step-thru <p> **code-fragments** directly within your presentation 
+###### Use code-presenting to **step-thru** code <p> directly within your presentation 
 
 ---
 
