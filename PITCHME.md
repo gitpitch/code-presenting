@@ -78,6 +78,11 @@ else:
 #### Code-Presenting
 #### With Annotations
 
+
+```
+                     @ [fragment-range](annotation)
+```
+
 ![Press Down Key](assets/down-arrow.png)
 
 +++
