@@ -103,7 +103,9 @@ else:
 #### The Basic Syntax
 
 ```
+
 ---?code=path/to/code.file
+
 ```
 
 ![Press Down Key](assets/down-arrow.png)
