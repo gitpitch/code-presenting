@@ -7,7 +7,6 @@
 +++
 
 ```python
-# This program adds up integers in the command line
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])
@@ -24,7 +23,6 @@ except ValueError:
 +++
 
 ```python
-# This program adds up integers in the command line
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])
@@ -34,9 +32,9 @@ except ValueError:
 ```
 
 @[1]
-@[3-5]
-@[4]
-@[6-7]
+@[2-4]
+@[3]
+@[5-6]
 
 +++
 
@@ -47,7 +45,6 @@ except ValueError:
 +++
 
 ```python
-# This program adds up integers in the command line
 import sys
 try:
     total = sum(int(arg) for arg in sys.argv[1:])
@@ -56,10 +53,10 @@ except ValueError:
     print 'Please supply integer arguments'
 ```
 
-@[1]
-@[3-5](Try adding up ints passed as args.)
+@[1](Import sys for access to argv.)
+@[3-5](Try summing ints passed as args.)
 @[4](The real work is done here.)
-@[6-7](Handle invalid args.)
+@[6-7](Just in case, handle invalid args.)
 
 ---?code=src/go/server.go
 
