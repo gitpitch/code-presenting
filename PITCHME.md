@@ -112,7 +112,7 @@ else:
 
 +++?code=src/python/time.py
 
-###### Delimiter basics let you present any <p> repo **code file** with syntax highlighting
+###### Code delimiter basics let you present any <p> **code file** with auto-syntax highlighting
 
 ---
 
@@ -129,7 +129,7 @@ else:
 @[10-16]
 @[18-24]
 
-###### Code-presenting lets you focus <p> on individual **code-fragments**
+###### Use code-presenting to focus your <p> presentatioin on individual **code-fragments**
 
 ---
 
