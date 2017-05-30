@@ -26,7 +26,7 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### The basics let you present <p> any *code block* with syntax highlighting
+###### The basics let you present <p> any **code block** with syntax highlighting
 
 ---
 
@@ -60,7 +60,7 @@ else:
 @[6-7]
 @[9-14]
 
-###### Step-thru each highlighted code-fragment <p> just like you would in your IDE
+###### Focus on individual code-fragments <p> just like you would in your IDE
 
 
 ---
