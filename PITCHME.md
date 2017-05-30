@@ -136,10 +136,10 @@ else:
 
 +++?code=src/elixir/monitor.ex
 
-@[11-14](Elixir module attributes as constants)
-@[22-28](Elixir with statement for conciseness)
-@[171-177](Elixir case statement pattern matching)
-@[179-185](Elixir pipe for composing functions)
+@[11-14](Elixir module-attributes as constants)
+@[22-28](Elixir with-statement for conciseness)
+@[171-177](Elixir case-statement pattern matching)
+@[179-185](Elixir pipe-mechanism for composing functions)
 
 ---
 
