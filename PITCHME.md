@@ -117,10 +117,10 @@ else:
 
 +++?code=src/javascript/config.js
 
-[1]
-@[3-4]
-@[6-7]
-@[9-14]
+@[1-3]
+@[5-8]
+@[10-16]
+@[18-23]
 
 ###### Code-presenting lets you focus <p> on individual **code-fragments**
 
