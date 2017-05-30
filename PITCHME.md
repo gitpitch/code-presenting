@@ -117,7 +117,12 @@ else:
 
 +++?code=src/javascript/config.js
 
-Need to add CF-markers here...
+[1]
+@[3-4]
+@[6-7]
+@[9-14]
+
+###### Code-presenting lets you focus <p> on individual **code-fragments**
 
 ---
 
@@ -130,7 +135,10 @@ Need to add CF-markers here...
 
 +++?code=src/elixir/monitor.ex
 
-Need to add CF-markers with annotations here...
+@[1](Python from..import statement)
+@[3-4](Python dictionary initialization block)
+@[6-7](Python working with time)
+@[9-14](Python for..else statement)
 
 ---
 
