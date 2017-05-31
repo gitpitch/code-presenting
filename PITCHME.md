@@ -3,7 +3,7 @@
 
 ---
 
-### Markdown Code-Block
+### Code-Blocks
 
 #### The Basics
 
@@ -28,11 +28,11 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### Code block basics let you present any <p> **static code** with auto-syntax highlighting
+###### Code-blocks let you present any <p> **static code** with auto-syntax highlighting
 
 ---
 
-### Markdown Code-Block
+### Code-Blocks
 ##### Using
 #### Code-Presenting
 
@@ -67,10 +67,10 @@ else:
 
 ---
 
-### Markdown Code-Block
+### Code-Blocks
 ##### Using
 #### Code-Presenting
-#### With Annotations
+#### **With Annotations**
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -100,7 +100,7 @@ else:
 
 ---
 
-### Markdown Code-Delimiter
+### Code-Delimiter Slides
 
 ```
                   ---?code=path/to/source.file
@@ -112,11 +112,11 @@ else:
 
 +++?code=src/python/time.py
 
-###### Code delimiter basics let you present any <p> **code file** with auto-syntax highlighting
+###### Code delimiters let you present any <p> **code file** with auto-syntax highlighting
 
 ---
 
-### Markdown Code-Delimiter
+### Code-Delimiter Slides
 ##### Using
 #### Code-Presenting
 
@@ -133,10 +133,10 @@ else:
 
 ---
 
-### Markdown Code-Delimiter
+### Code-Delimiter Slides
 ##### Using
 #### Code-Presenting
-#### With Annotations
+#### **With Annotations**
 
 ![Press Down Key](assets/down-arrow.png)
 
