@@ -34,7 +34,7 @@ else:
 
 ### Code-Blocks
 ##### Using
-#### Code-Presenting
+#### **Code-Presenting**
 
 ![Press Down Key](assets/down-arrow.png)
 
@@ -100,6 +100,12 @@ else:
 
 ---
 
+### Naturally
+### Code-Presenting
+### works in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as it does on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
+
+---
+
 ### Code-Delimiter Slides
 
 ```
@@ -110,7 +116,7 @@ else:
 
 ![Press Down Key](assets/down-arrow.png)
 
-+++?code=src/python/time.py
++++?code=src/python/time.py&lang=python
 
 ###### Code delimiters let you present any <p> **code file** with auto-syntax highlighting
 
@@ -118,11 +124,11 @@ else:
 
 ### Code-Delimiter Slides
 ##### Using
-#### Code-Presenting
+#### **Code-Presenting**
 
 ![Press Down Key](assets/down-arrow.png)
 
-+++?code=src/javascript/config.js
++++?code=src/javascript/config.js&lang=javascript
 
 @[1-3]
 @[5-8]
@@ -140,7 +146,7 @@ else:
 
 ![Press Down Key](assets/down-arrow.png)
 
-+++?code=src/elixir/monitor.ex
++++?code=src/elixir/monitor.ex&lang=elixir
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
