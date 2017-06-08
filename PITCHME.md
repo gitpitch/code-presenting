@@ -100,11 +100,11 @@ else:
 
 ---
 
-### Naturally, both
-### Code-Presenting
-### and
-### Code-Presenting with Annotations
-### work in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as they do on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
+#### Naturally, both
+#### Code-Presenting
+#### and
+#### Code-Presenting with Annotations
+#### work in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as they do on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
 
 ---
 
