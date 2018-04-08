@@ -1,7 +1,9 @@
+@title[Code Presenting]
 # Code
 # Presenting
 
 ---
+@title[Working With Code Blocks]
 
 ### Code-Blocks
 
@@ -10,6 +12,7 @@
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Sample Block]
 
 ```python
 from time import localtime
@@ -39,6 +42,7 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Sample Code Presenting]
 
 ```python
 from time import localtime
@@ -75,6 +79,7 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++
+@title[Sample With Annotations]
 
 ```python
 from time import localtime
@@ -99,12 +104,14 @@ else:
 @[9-14](Python for..else statement)
 
 ---
+@title[Working with Source Files]
 
 ### Naturally
 ### Code-Presenting
 ### works in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as it does on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
 
 ---
+@title[Code Delimiter Syntax]
 
 ### Code-Delimiter Slides
 
@@ -117,10 +124,12 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++?code=src/python/time.py&lang=python
+@title[Sample Source File]
 
 ###### Code delimiters let you present any <p> **code file** with auto-syntax highlighting
 
 ---
+@title[Code-Delimiter Slides]
 
 ### Code-Delimiter Slides
 ##### Using
@@ -129,6 +138,7 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++?code=src/javascript/config.js&lang=javascript
+@title[Sample Code Presenting]
 
 @[1-3]
 @[5-8]
@@ -147,6 +157,7 @@ else:
 ![Press Down Key](assets/down-arrow.png)
 
 +++?code=src/elixir/monitor.ex&lang=elixir
+@title[Sample With Annotations]
 
 @[11-14](Elixir module-attributes as constants)
 @[22-28](Elixir with-statement for conciseness)
