@@ -1,18 +1,18 @@
 @title[Code Presenting]
-# Code
-# Presenting
+## `GitPitch`
+# `Code`
+# `Presenting`
 
 ---
-@title[Working With Code Blocks]
+@title[Fenced Code Blocks]
 
-### Code-Blocks
+### `Fenced Code Blocks`
+#### Snippets embedded in your Markdown 
 
-#### The Basics
+@fa[arrow-down]
 
-![Press Down Key](assets/down-arrow.png)
-
-+++
-@title[Sample Block]
++++?color=#272c34
+@title[Sample Code Block]
 
 ```python
 from time import localtime
@@ -31,54 +31,65 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-###### Code-blocks let you present any <p> **static code** with auto-syntax highlighting
+@snap[south span-100 text-06]
+Fenced code blocks let you present **code snippets** with auto-syntax highlighting.
+@snapend
 
 ---
 
-### Code-Blocks
-##### Using
-#### **Code-Presenting**
+### `Fenced Code Blocks`
+### Code Presenting
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
-+++
++++?color=#272c34
 @title[Sample Code Presenting]
 
-```python
-from time import localtime
+```go
+package main
 
-activities = {8: 'Sleeping', 9: 'Commuting', 17: 'Working',
-              18: 'Commuting', 20: 'Eating', 22: 'Resting' }
+import (
+	"fmt"
+	"golang.org/x/net/websocket"
+	"log"
+	"net/http"
+)
 
-time_now = localtime()
-hour = time_now.tm_hour
+func echoHandler(ws *websocket.Conn) {
+	msg := make([]byte, 512)
+	n, err := ws.Read(msg)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Receive: %s\n", msg[:n])
 
-for activity_time in sorted(activities.keys()):
-    if hour < activity_time:
-        print activities[activity_time]
-        break
-else:
-    print 'Unknown, AFK or sleeping!'
+	m, err := ws.Write(msg[:n])
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Printf("Send: %s\n", msg[:m])
+}
 ```
 
-@[1]
-@[3-4]
-@[6-7]
-@[9-14]
 
-###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
+@[1]
+@[3-8]
+@[10-24]
+
+@snap[south span-100 text-06]
+Use code-presenting to *step-into* code directly on your slides.
+@snapend
 
 
 ---
 
-### Code-Blocks
-##### Using
-#### Code-Presenting
-#### **With Annotations**
+### `Fenced Code Blocks`
+### Code Presenting
+### With Annotations
 
-![Press Down Key](assets/down-arrow.png)
+@fa[arrow-down]
 
-+++
++++?color=#272c34
 @title[Sample With Annotations]
 
 ```python
@@ -98,73 +109,48 @@ else:
     print 'Unknown, AFK or sleeping!'
 ```
 
-@[1](Python from..import statement)
-@[3-4](Python dictionary initialization block)
-@[6-7](Python working with time)
-@[9-14](Python for..else statement)
+@snap[south span-100 text-09]
+@[1](Use code presenting annotations to document indivudual lines of code.)
+@[6-7](Or focus your audience's attention on entire blocks of code.)
+@[9-14](You can even *step-into* loops to demonstrate logical code flow.) 
+@snapend
 
 ---
-@title[Working with Source Files]
+@title[Code Delimiters]
 
-### Naturally
-### Code-Presenting
-### works in exactly the same way on [Code-Delimiter Slides](https://github.com/gitpitch/gitpitch/wiki/Code-Delimiter-Slides) as it does on [Code-Blocks](https://github.com/gitpitch/gitpitch/wiki/Code-Slides).
-
----
-@title[Code Delimiter Syntax]
-
-### Code-Delimiter Slides
+### `Code Delimiters`
+#### For any file in your Repo
 
 ```
                   ---?code=path/to/source.file
 ```
 
-#### The Basics
+@fa[arrow-down]
 
-![Press Down Key](assets/down-arrow.png)
-
-+++?code=src/python/time.py&lang=python
-@title[Sample Source File]
-
-###### Code delimiters let you present any <p> **code file** with auto-syntax highlighting
-
----
-@title[Code-Delimiter Slides]
-
-### Code-Delimiter Slides
-##### Using
-#### **Code-Presenting**
-
-![Press Down Key](assets/down-arrow.png)
-
-+++?code=src/javascript/config.js&lang=javascript
-@title[Sample Code Presenting]
-
-@[1-3]
-@[5-8]
-@[10-16]
-@[18-24]
-
-###### Use code-presenting to **step-thru** code <p> from directly within your presentation 
-
----
-
-### Code-Delimiter Slides
-##### Using
-#### Code-Presenting
-#### **With Annotations**
-
-![Press Down Key](assets/down-arrow.png)
-
-+++?code=src/elixir/monitor.ex&lang=elixir
++++?code=src/elixir/monitor.ex&lang=elixir&color=#272c34
 @title[Sample With Annotations]
 
-@[11-14](Elixir module-attributes as constants)
-@[22-28](Elixir with-statement for conciseness)
-@[171-177](Elixir case-statement pattern matching)
-@[179-185](Elixir pipe-mechanism for composing functions)
+@snap[south span-100 text-08]
+@[11-14](Code delimters deliver powerful code presenting features on your slides.)
+@[22-28](You can *step-into* any repo source file and focus on any line or block of code.)
+@[179-185](With optional annotations to help guide or educate your audience.)
+@snapend
+
+---
+@title[Pro Code Step-and-Zoom]
+
+@snap[west span-50 text-08]
+For even more powerful GitPitch code presenting features learn 
+about<br>[Pro Code Step-and-Zoom @fa[external-link]](https://gitpitch.com/docs/code-features/pro-code-zoom)
+@snapend
+
+@img[east span-50](assets/img/pro-code-step-and-zoom.gif)
 
 ---
 
 ### Learn By Example
 #### View The [Presentation Markdown](https://github.com/gitpitch/code-presenting/blob/master/PITCHME.md)
+
+@snap[south span-100 text-06]
+For complete Code Presenting documentation, see the [GitPitch Docs @fa[external-link]](https://gitpitch.com/docs/code-features)
+@snapend
