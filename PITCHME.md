@@ -1,7 +1,6 @@
 @title[Code Presenting]
-## `GitPitch`
-# `Code`
-# `Presenting`
+## Code
+## Presenting
 
 ---
 @title[Fenced Code Blocks]
@@ -139,12 +138,12 @@ else:
 ---
 @title[Pro Code Step-and-Zoom]
 
-@snap[west span-50 text-08]
+@snap[west span-45 text-08]
 For even more powerful GitPitch code presenting features learn 
 about<br>[Pro Code Step-and-Zoom @fa[external-link]](https://gitpitch.com/docs/code-features/pro-code-zoom)
 @snapend
 
-@img[east span-50](assets/img/pro-code-step-and-zoom.gif)
+@img[east span-45](assets/img/pro-code-step-and-zoom.gif)
 
 ---
 
